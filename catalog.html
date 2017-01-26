@@ -6,7 +6,7 @@
   </head>
   <body>
     <header class="navigation-bar">
-		<div ="container">
+		<div class="header-container">
 			<div class="logo">
 				<img src="http://placehold.it/150x100" alt="Логотип">
 			</div>
@@ -37,67 +37,70 @@
 		</div>
     </header>
 	
-	<main>
+	<main class="container">
 		<header class="content-header">
 			
 			 <h1>Средства для ухода</h1>
 			
 			<ul class="breadcrumbs">
 				<li>
-					<a class="second-navigation-item" href="index.html">Главная</a>
+					<a class="breadcrumbs-item" href="index.html">Главная</a>
 				</li>
 				<li>
-					<a class="second-navigation-item" href="#">Магазин</a>
+					<a class="breadcrumbs-item" href="#">Магазин</a>
 				</li>
 				<li>
-						<span class="second-navigation-item">Средства для ухода</span>
+					<span class="breadcrumbs-item">Средства для ухода</span>
 				</li>
 			</ul>
 		</header>
 		<aside class="catalog-sidebar">
 			<form class="filters-form" method="post">
-				<div class="filter-title">Производители:</div>					
-					<div clas="filter-item">					
-						<input class="form-item" id="brand-1" name="brand" type="checkbox" checked>
-						<label for="brand-1" >Baxter of california</label>
-					</div>
-					<div clas="filter-item">
-						<input class="form-item" id="brand-2" name="brand" type="checkbox" >
-						<label for="brand-2">mr natty</label>
-					</div>
-					<div clas="filter-item">
-						<input class="form-item" id="brand-3" name="brand" type="checkbox" checked>
-						<label>sauvecitto</label>
-					</div>
-					<div clas="filter-item">
-						<input class="form-item " id="brand-4" name="brand" type="checkbox" >
-						<label for="brand-4">malin-goets</label>
-					</div>
-					<div clas="filter-item">
-						<input class="form-item" id="brand-5" name="brand" type="checkbox" >
-						<label for="brand-5">murray's</label>
-					</div>
-					<div clas="filter-item">
-						<input class="form-item" id="brand-6" name="brand" type="checkbox" checked>
-						<label for="brand-6">american crew</label>
-					</div>
-				</div>	
-				
-				<div class="filter-title">Группы товаров:</div>												
-						<div clas="filter-item">
-							<input class="form-item" id="goods-1" name="goods" type="radio">
-							<label for="goods-1">Бритвенные принадлежности</label>
+				<fieldset>
+					<legend>Производители:</legend>					
+						<div clas="filter-item">					
+							<input class="form-item" id="brand-1" name="brand" type="checkbox" checked>
+							<label for="brand-1" >Baxter of california</label>
 						</div>
 						<div clas="filter-item">
-							<input class="form-item" id="goods-2" name="goods" type="radio" checked>
-							<label for="goods-1">Средства для ухода</label>
+							<input class="form-item" id="brand-2" name="brand" type="checkbox" >
+							<label for="brand-2">mr natty</label>
 						</div>
 						<div clas="filter-item">
-							<input class="form-item" id="goods-3" name="goods" type="radio">
-							<label for="goods-1">Аксессуары</label>
-						</div>							
-						<button class="btn" type="submit">Показать</button>
-				</div>		
+							<input class="form-item" id="brand-3" name="brand" type="checkbox" checked>
+							<label>sauvecitto</label>
+						</div>
+						<div clas="filter-item">
+							<input class="form-item " id="brand-4" name="brand" type="checkbox" >
+							<label for="brand-4">malin-goets</label>
+						</div>
+						<div clas="filter-item">
+							<input class="form-item" id="brand-5" name="brand" type="checkbox" >
+							<label for="brand-5">murray's</label>
+						</div>
+						<div clas="filter-item">
+							<input class="form-item" id="brand-6" name="brand" type="checkbox" checked>
+							<label for="brand-6">american crew</label>
+						</div>
+					</div>	
+				</fieldset>
+				<fieldset>	
+					<legend>Группы товаров:</legend>												
+							<div clas="filter-item">
+								<input class="form-item" id="goods-1" name="goods" type="radio">
+								<label for="goods-1">Бритвенные принадлежности</label>
+							</div>
+							<div clas="filter-item">
+								<input class="form-item" id="goods-2" name="goods" type="radio" checked>
+								<label for="goods-1">Средства для ухода</label>
+							</div>
+							<div clas="filter-item">
+								<input class="form-item" id="goods-3" name="goods" type="radio">
+								<label for="goods-1">Аксессуары</label>
+							</div>							
+							<button class="btn" type="submit">Показать</button>
+					</div>
+				</fieldset>	
 			</form>
 		</aside>
 		
@@ -108,7 +111,7 @@
 						<img src="http://placehold.it/150x100" alt="Набор для путешествий «Baxter of California»">
 					</a>
 					<div class="item-description"> 
-						<p class="item"> <a href="catalog-item.html"><p>Набор для путешествий</p><p> «BAXTER OF CALIFORNIA»</p></a></p>
+						 <a href="catalog-item.html"><p>Набор для путешествий</p><p> «BAXTER OF CALIFORNIA»</p></a>
 					
 						<div class="item-action">
 							<p class="item-price">2.900 РУБ.</p>
@@ -190,10 +193,10 @@
 				</div>			
 			</div>		
 			<div class="paginator">
-				<a class="btn" href="#">1</a>
+				<a class="btn">1</a>
 				<span class="active-btn">2</span>
-				<a class="btn" href="#">3</a>
-				<a class="btn" href="#">4</a>
+				<a class="btn">3</a>
+				<a class="btn">4</a>
 			</div>	
 		</section>	
 	</main>	
