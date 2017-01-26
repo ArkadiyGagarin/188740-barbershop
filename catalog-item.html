@@ -6,57 +6,61 @@
   </head>
   <body>
 		<header class="navigation-bar">
-			<div class="logo">
-				<img src="http://placehold.it/150x100" alt="Логотип">
+			<div class="header-container">
+				<div class="logo">
+					<a href="index.html"><img src="http://placehold.it/150x100" alt="Логотип"></a>
+				</div>
+				<nav class="main-navigation">
+				  <ul>
+					<li>
+					  <a href="index.html">Информация</a>
+					</li>
+					<li>
+					  <a href="#">Новости</a>
+					</li>
+					<li>
+					  <a href="#">Прайс-лист</a>
+					</li>
+					<li>
+					  <div class="active-section"><a href="#">Магазин</a></div>
+					</li>
+					<li>
+					  <a href="#">Контакты</a>
+					</li>
+				  </ul>
+				</nav>
+				<div class="user-block">
+				  <a class="login" href="#">Вход</a>
+				</div>
 			</div>
-			<nav class="main-navigation">
-			  <ul>
-				<li>
-				  <a href="index.html">Информация</a>
-				</li>
-				<li>
-				  <a href="#">Новости</a>
-				</li>
-				<li>
-				  <a href="#">Прайс-лист</a>
-				</li>
-				<li>
-				  <a href="#">Магазин</a>
-				</li>
-				<li>
-				  <a href="#">Контакты</a>
-				</li>
-			  </ul>
-			</nav>
-			<div class="user-block">
-			  <a class="login" href="#">Вход</a>
-			</div>
-      
 		</header>
 			
-	<main>
-		<header class="content-header">
+	<main class="container">
+		
 			
-			 <h1>НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»</h1>
+			 <h1 class="main-header">НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»</h1>
 			
-			<nav class="second-navigation">
-			
-						<a class="second-navigation-item" href="index.html">Главная</a>
-					
-						<a class="second-navigation-item" href="#">Магазин</a>
-	
-						<a class="second-navigation-item" href="#">Средства для ухода</a>
-						
-						<span class="second-navigation-item">Набор для путешествий «Baxter of California»</span>
-				
-			</nav>
-		</header>
+			<div class="breadcrumbs">
+				<ul>
+					<li>
+						<a class="breadcrumbs-item" href="index.html">Главная</a>
+					</li>
+					<li>
+						<a class="breadcrumbs-item" href="#">Магазин</a>
+					</li>
+					<li>
+						<a class="breadcrumbs-item" href="#">Средства для ухода</a>
+					</li>
+					<li>
+						<span class="breadcrumbs-item">Набор для путешествий «Baxter of California»</span>
+					</li>
+				</ul>
+			</div>
+		
 		
 		<section class="main-gallery">
-			<div class="main-photo">
-				<a href="#">
-					<img src="http://placehold.it/150x100" alt="Набор для путешествий «Baxter of California»">
-				</a>
+			<div class="main-photo">				
+					<img src="http://placehold.it/150x100" alt="Набор для путешествий «Baxter of California»">				
 			</div>
 	
 			<div class="gallery">
@@ -76,8 +80,8 @@
 	
 		<section class="item-description">
 			<div class="catalog">
-				Есть в наличии 
-				<span class="article"> АРТИКУЛ: DEXTER-AE</span>
+				<h2>Есть в наличии </h2>
+				<div class="article"> АРТИКУЛ: DEXTER-AE</div>
 			</div>			
 				<p class="description">
 					Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.
